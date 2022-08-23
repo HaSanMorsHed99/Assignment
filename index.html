@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select your 5 favourite Player</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-info">
+        <!-- <div class="container"> -->
+            <div class="row">
+              <div class="col-3">
+                <img src="images/maymer1.jpg" class="img-fluid w-100" alt="">
+              </div>
+              <div class="col-6 text-center my-auto">
+                <h1 class="text-success">Chose the top 5 five player</h1>
+                <p>Suppose you are a team selector .now you select your best five player then how to select your best choice.</p>
+              </div>
+              <div class="col-3">
+                <img src="images/messi1.jpg" class="img-fluid w-100"alt="">
+              </div>
+            <!-- </div> -->
+        </div>
+   
+    </header>
+    <main class="mx-0 bg-light">
+        <div class="container">
+            <div class="row">
+              <div class="col border border-success text-center">
+                <img src="images/naymer4.png" class="img-fluid w-100" style="height: 225px;" alt="">
+                <h3 id="tplayer1">Naymer</h3>
+                <span>Goal-100 </span><span>Assist-120</span><br>
+                <button id="bplayer1" class="text-white bg-warning">Select</button>
+              </div>
+              <div class="col border border-success text-center">
+                <img src="images/messi2.png" class="img-fluid w-100" style="height: 225px;" alt="">
+                <h3 id="tplayer2">Leon messi</h3>
+                <span>Goal-150 </span><span>Assist-100</span><br>
+                <button id="bplayer2" class="text-white bg-warning">Select</button>
+              </div>
+              <div class="col border border-success text-center">
+                <img src="images/ronaldo2.jpg" class="img-fluid w-100" style="height: 225px;" alt="">
+                <h3 id="tplayer3">Ronaldo</h3>
+                <span>Goal-90 </span><span>Assist-100</span><br>
+                <button id="bplayer3" class="text-white bg-warning">Select</button>
+              </div>
+
+            <!-- Playerlist top 5 -->
+              <div class="col border border-primary ms-5 text-center">
+                <h2 class="text-primary">Selected player</h2>
+                <h4 id="selectedplayername" class=""></h4>
+              </div>
+           </div>
+          <div class="row">
+            <div class="col border border-success text-center">
+              <img src="images/mbappe.jpg" class="img-fluid w-100" style="height: 225px;" alt="">
+              <h3 id="tplayer4">Mbappe</h3>
+              <span>Goal-50 </span><span>Assist-40</span><br>
+              <button id="bplayer4" class="text-white bg-warning">Select</button>
+            </div>
+            <div class="col border border-success text-center">
+              <img src="images/salah1.webp" class="img-fluid w-100" style="height: 225px;" alt="">
+              <h3 id="tplayer5">Mohammad Salah</h3>
+              <span>Goal-100 </span><span> Assist-50</span><br>
+              <button id="bplayer5" class="text-white bg-warning">Select</button>
+            </div>
+            <div class="col border border-success text-center">
+              <img src="images/Kaka1.jpg" class="img-fluid w-100" style="height: 225px;" alt="">
+              <h3 id="tplayer6">Kaka</h3>
+              <span>Goal-110  </span><span>Assist-40</span><br>
+              <button id="bplayer6" class="text-white bg-warning">Select</button>
+            </div>
+                <div class="col border border-primary ms-5 mt-2 text-center">
+                    <h2 class="text-danger">Budget</h2>
+                    <h6>Per player: <input id="ipercost" placeholder="per player amount" class="" type="text"></h6>
+                    <button id="bclc">calculate</button>
+                    <h4>Player Expenses: $ <span id="cost">00</span></h4>
+                    <h6>Manager: <input type="text" name="imanagercost" id=""></h6>
+                    <h6>Coach:   <input type="text" name="" id="icoachcost"></h6>
+                    <button id="btotalcost">Calculate total</button>
+                    <h4>Total cost $<span id="tcost">00</span></h4>
+                    <h4></h4>
+                </div>
+          </div>
+        </div>
+    </main>
+    <hr>
+    <footer class="bg-info">
+<p class="text-center text-success py-5">@ All rights reserve to Hasan Morshed</p>
+    </footer>
+    <script src="budget.js"></script>
+    <script src="selectplayer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
